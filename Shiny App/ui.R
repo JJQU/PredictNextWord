@@ -7,6 +7,8 @@ library(stringr)
 shinyUI(
   navbarPage("Next Word Prediction",
              tabPanel("Predict Word",
+                      HTML("<strong>Author: Jessie J. Q</strong>"),
+                      br(),
                       
                       sidebarLayout(
                         sidebarPanel(
